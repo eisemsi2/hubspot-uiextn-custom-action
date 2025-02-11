@@ -1,0 +1,16 @@
+{
+    "type": "crm-card",
+    "data": {
+        "title": "Company-Checkboxes",
+        "location": "crm.record.sidebar",
+        "uid": "company-association-Checkboxes",
+        "module": {
+            "file": "CompanyAssociationCheckboxes.jsx"
+        },
+        "objectTypes": [
+            {
+                "name": "contacts"
+            }
+        ]
+    }
+}
