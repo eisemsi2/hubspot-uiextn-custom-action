@@ -29,9 +29,6 @@ function CompanyAssociationCheckboxes({ context, actions }) {
                 console.log('starting fetch');
                 const companiesResponse = await hubspot.fetch('https://us-central1-hubspot-fetch.cloudfunctions.net/app/companies', {
                     method: 'GET',
-                    // headers: {
-                    //     Authorization: `Bearer ${data.accessToken}`,
-                    // },
                 });
                 
                 // console.log(companiesResponse); 
